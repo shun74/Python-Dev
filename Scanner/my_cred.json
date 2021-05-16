@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "food-additive-scanner",
+  "private_key_id": "b16f129bd1942ec4fbb59b1601cb1e83bb77d933",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDGfiSMkreViSS5\n8ABITuzYDtEqGw+fKMrv1IxhszniPKC0j30WdljbCCw1wjzOgWcLwKV16Sx+RcCw\nkzfWOJ72ODGozm3d9ExEcWcxQVvU9Q4pEa8GhtBmqKRy17ggo5r9QAjqtEFgZREv\nBQ2mT+AV1rD41sMT/fsn2B0anzLDjNi5mTT9odWUp6+dH6dut09zfIDui/tW8N+A\nBrGnZrkYmzlWRMs/61OzzWxKjjZBVV514CLlAWHXGidUnY1Bcm33diNoajMf49fo\nPzwwflq/gHCbLstnXPFYm8iv8QxQYRimWCVkWMjaXTI/hbxDEa9YC2tpOCSh9PtG\nwM2jfw5bAgMBAAECggEACIIWsfnbVFW9FRqZqyp1kitMbELIWs5Q/ee9SWDOfd6T\nFY+YUTKrILRgehYZ13uKKGGjwK1JLXPITH6lpDvoFcNsiYD+X5xdpTS73iDK6BLF\nqR1WGcWvQCnsEUoi3S9LcPM3jqFBs3k8O9OPyrheHBbdnhpNNq7/1CzkznkoIA6h\nnTmeuNzFOPuxeK1xuYKTr9wuwCwS71dqTl6Kdg5J3wWTgffnruy6r3LHMKWbkrfy\nnHqGTeNmiNCjOOccm+kcQgHNcHfvCWU+sVUlHKOhqCJgazj7y1qFTHBKKHxePVKY\n6IkKo+BvKwCU9SwXM/SqY/jUKN5F+eqLNKzPg4RWeQKBgQDzU//DBr6mFAJA1mdL\nhpnamPz3Y7tkdBPS3zINzfF6GjfCrqnOVvKb78m7Qvqm2iVwDXaq1e3KMnIGoo7s\nAG19kjD35C/q16yxlswxS8XgZgs+ty/2ARk150TXncyMCfpP3h7eEGjwqfcq0oMw\nwCbWo4Jm+Zz7ibdlraxe6k3kGQKBgQDQ1GhYkjBw6TIJHfhH1PNCqWQRDQpqvcWd\ni4FBkmYzd8N7UD/3I4fbs0ucbQHxw3wtXtDUmCnOBz51dUnVRamBQGcLgU7RCd8z\ncvRchS3EFHgbMKzcQ6bl/TOHXXWWIP4CUZts0fp45yr3D1qiOp4VUxy6OQpWoJmV\nm8Bgx/A0kwKBgQDSz6SXh+Fmq5EkMVz+vxfOnpsTjjFNH5AJMtv/v7wFKG/E2GQ/\nY27/kKi695WHNxoWUWPNMFi6xCer/exLJTe3AhAwxF6LXN2+YkJ4NwixmFcHt9fy\njxMTc1FeaNVNQlu+FFez1o3Ea8y7KfUFKIS9kp2or3vFJZRhoCzlcqOXCQKBgQCM\nfxtk25XzoTCkqaEs0ryHEOfeAOQNRHf7sqvXreNMpTrDcA5Y+3KgAVTRfRVdzqNw\n8uWU4nrdvknrRGnULvYHm4i4WNrqELY2KxT0WjWcQhk8Udc6qdlTyrIsVFiUFMZQ\nUQ88e1kElqJ1bcMQeld5CV2+fDnUZmBuI0ee1WVqOQKBgG/9gQmOVbZm3jZCUtgo\nvX6xOgMIzzYnhKxOxJLiRViyM2jgzCO61GJhPNVGEQwWlvh5cIDUn0QRhCD2CFHa\nIhSn9igLjHzBHLCwm/VgatbegeanT4St11ptF84dThFNxtq2HTwJuQBkwkKivMv4\n5oF36Q+s82sGmnW8mcvDNrmy\n-----END PRIVATE KEY-----\n",
+  "client_email": "food-additive-scanner@food-additive-scanner.iam.gserviceaccount.com",
+  "client_id": "104049124691223729378",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/food-additive-scanner%40food-additive-scanner.iam.gserviceaccount.com"
+}
