@@ -66,7 +66,7 @@ while True:
     # Drawings
     cv2.rectangle(img, (50, 150), (85, 400), (255, 0, 0), 3)
     cv2.rectangle(img, (50, int(volBar)), (85, 400), (255, 0, 0), cv2.FILLED)
-    cv2.putText(img, f"FPS: {int(volPer)} %", (40, 450), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0, 0), 3)
+    cv2.putText(img, f"Vol: {int(volPer)} %", (40, 450), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0, 0), 3)
     cVol = int(volume.GetMasterVolumeLevelScalar()*100)
     cv2.putText(img, f"Vol Set: {int(cVol)}", (400, 50), cv2.FONT_HERSHEY_COMPLEX, 1, colorVol, 3)
 
