@@ -51,7 +51,7 @@ while True:
             volBar = np.interp(length,[50,300],[400,150])
             volPer = np.interp(length,[50,300],[0,100])
             # Reduce Resolution to make it smoother
-            smoothness = 10
+            smoothness = 2
             volPer = smoothness * round(volPer/smoothness)
             # Check fingers up
             fingers = detector.fingersUp()
