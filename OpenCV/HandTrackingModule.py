@@ -82,10 +82,10 @@ class handDetector():
     def areFingersUp(self, lmList):
         fingers = []
         # Thumb
-        if lmList[self.tipIds[0]][2] < lmList[self.tipIds[0] - 1][2]:
-            fingers.append(1)
-        else:
+        if lmList[self.tipIds[0]-1][2] - lmList[self.tipIds[0]][2] < (lmList[self.tipIds[0] - 2][2] - lmList[self.tipIds[0] - 1][2])//2:
             fingers.append(0)
+        else:
+            fingers.append(1)
         # other 4 fingers
         for id in range(1, 5):
             if lmList[self.tipIds[id]][2] < lmList[self.tipIds[id] - 2][2]:

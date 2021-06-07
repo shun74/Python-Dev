@@ -51,7 +51,7 @@ while True:
             num += 2**(i+5) * fingers[0][i]
             num += 2**i * fingers[1][4-i]
 
-        cv2.putText(img, f"{num}", (300, 50), cv2.FONT_HERSHEY_TRIPLEX, 1, (255,255,255) ,3)
+        cv2.putText(img, f"{num}", (300, 50), cv2.FONT_HERSHEY_TRIPLEX, 1, (0,0,0) ,3)
 
 
     # Frame rate
