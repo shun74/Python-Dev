@@ -37,6 +37,7 @@ print("Audio Loaded")
 while True:
     success, img = cap.read()
     # Find Hand
+    img = cv2.flip(img, 1)
     img = detector.findHands(img)
     lmList, bbox = detector.findPosition(img, draw=True)
     if len(lmList) > 0:
