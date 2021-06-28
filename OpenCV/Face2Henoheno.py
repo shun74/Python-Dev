@@ -29,17 +29,17 @@ while cap.isOpened():
 
         font = ImageFont.truetype(fontpath, int(scale[0]*120))
         (x,y) = landmark[0]
-        draw.text((x-scale[0]*50,y-scale[1]*30), "へ", font = font , fill = (0,255,0) )
-        draw.text((x-scale[0]*50,y+scale[1]*40), "の", font = font , fill = (0,255,0) )
+        draw.text((x-scale[0]*50,y-scale[1]*40), "へ", font = font , fill = (0,255,0) )
+        draw.text((x-scale[0]*50,y+scale[1]*30), "の", font = font , fill = (0,255,0) )
         (x,y) = landmark[1]
-        draw.text((x-scale[0]*50,y-scale[1]*30), "へ", font = font , fill = (0,255,0) )
-        draw.text((x-scale[0]*50,y+scale[1]*40), "の", font = font , fill = (0,255,0) )
+        draw.text((x-scale[0]*50,y-scale[1]*40), "へ", font = font , fill = (0,255,0) )
+        draw.text((x-scale[0]*50,y+scale[1]*30), "の", font = font , fill = (0,255,0) )
         font = ImageFont.truetype(fontpath, int(scale[0]*140))
         (x,y) = landmark[2]
-        draw.text((x-scale[0]*70,y-scale[1]*20), "も", font = font , fill = (0,255,0) )
+        draw.text((x-scale[0]*70,y-scale[1]*30), "も", font = font , fill = (0,255,0) )
         font = ImageFont.truetype(fontpath, int(scale[0]*160))
         (x,y) = landmark[3]
-        draw.text((x-scale[0]*70,y-scale[1]*20), "へ", font = font , fill = (0,255,0) )
+        draw.text((x-scale[0]*70,y-scale[1]*30), "へ", font = font , fill = (0,255,0) )
         fontpath ='C:\Windows\Fonts\HGRGM.TTC'
         font = ImageFont.truetype(fontpath, int(scale[0]*850))
         (x,y) = bbox[0]+scale[0]*0.2,bbox[1]+scale[1]*0.3
